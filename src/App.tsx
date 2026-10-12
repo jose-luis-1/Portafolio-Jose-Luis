@@ -75,7 +75,7 @@ const PROJECTS = [
   },
 ];
 
-const EMAIL = "joseluisagamezlopez@gmail.com";
+const EMAIL = "3114144629";
 const LINE = [70, 140, 215, 290, 365, 440];
 
 export default function App() {
@@ -344,11 +344,19 @@ export default function App() {
           <span className="jl-k">Contacto</span>
           <h2 className="jl-h2">Hablemos de tu próximo proyecto.</h2>
           <button className="jl-cta" onClick={copy}>
-            {copied ? "Correo copiado" : EMAIL}
+            {copied ? "Telefono copiado" : EMAIL}
           </button>
           <a
             className="jl-cta ghost"
-            href="https://wa.me/573114144629"
+            href="mailto:joseluisagamezlopez@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Corro electrónico
+          </a>
+          <a
+            className="jl-cta ghost"
+            href="https://wa.me/573014610269"
             target="_blank"
             rel="noreferrer"
           >
